@@ -3,3 +3,6 @@ Numpy
 Matplotlib
 Seaborn
 Scikit-learn
+ipykernel
+
+-e.
