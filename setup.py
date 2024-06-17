@@ -1,7 +1,6 @@
 from setuptools  import setup
 from setuptools import find_packages
- 
-from typing import list 
+from typing import List 
 HYPEN_E_DOT='-e.'
 
 def getreqiurement(file_path=str):
@@ -15,5 +14,6 @@ def getreqiurement(file_path=str):
 
       return reqiurements
     
-setup(name ='src',version= 0.0.1,author='AYUSH',install_packages= getreqiurement('requirement.txt')author_email='ayushrajputparihar@gmail.com',
-packages= find_packages();)
+setup(
+    name="src",version="0.0.1",author="AYUSH",install_packages=getreqiurement('requirement.txt'),author_email="ayushrajputparihar@gmail.com",
+packages=find_packages() )
