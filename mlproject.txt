@@ -9,6 +9,7 @@
  ------>>>
  we cannot provide  the categorical values directly to ml model,
  therefore we need  to encode it and then pass it to model.
-  Fair,Good,Very Good,Premium,Ideal
-  IF,VVS1,VVS2,VS1,VS2,SI1,SI2,I1
-  D,E,F,G,H,I,J
+  -----> to create a virrtual enviroment:
+ conda create -p env python= 3.8  -y &&  source activate ./env
+ 
+ _->python -m venv myenv
