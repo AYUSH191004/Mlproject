@@ -43,33 +43,7 @@ The model training process includes:
 Detailed code for model training is available in the `model_training.ipynb` notebook.
 
 ## Results
-The best-performing model in this project was the [insert best model name here] with an R² score of [insert score here].
-
-## How to Run
-To run this project locally:
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/diamond-price-prediction.git
-   ```
-2. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Run the notebooks:
-   - `EDA.ipynb` for exploratory data analysis.
-   - `model_training.ipynb` for training the models.
-
-## Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
-
-## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
----
-
-Feel free to customize this further according to your preferences or project specifics!
-
-
+The best-performing model in this project was the DECISION TREE REGRESSOR with an R² score of 99.99979369604115.
 
 # git commands 
 ''' git init -> to commit and connect it 
